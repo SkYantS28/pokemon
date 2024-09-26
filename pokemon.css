@@ -1,0 +1,74 @@
+*{
+    font-family: arial, sans-serif;
+    margin: 0 auto; /*As margens são usadas para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas. (fora)*/
+    padding: 0; /*padding = preenchimento. (dentro)
+    Cria espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.*/
+    box-sizing: border-box; /*o tamanho agora levará em conta até a borda.
+    ou seja, o width será a soma do conteúdo com a borda e o padding*/
+}
+
+body{
+    background-color: rgb(151, 201, 255);
+}
+h1{
+    margin-bottom: 20px;
+}
+
+.inicio h1{
+    text-align: left;
+    color: #0d0359;
+    font-style: bold;
+    list-style: none;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.formulario {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(25, 105, 190);
+    color: white;
+    border: solid 2px rgb(0, 9, 109);
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px; 
+    margin: 5px 0 25px 0;
+    border: solid 1px rgb(65, 66, 104);
+    background-color: #b6b9c7;
+}
+input[type=text]:focus{
+    background-color: #d3d3d3;
+    outline: none;
+}
+  
+#botao_confirmacao {
+    background-color: #19129a;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+} 
+#botao_confirmacao:hover {
+    opacity: 1;
+    background-color: hsl(118, 100%, 50%);
+}
+
+#botao_voltar, #botao_avancar {
+    background-color: #19129a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#botao_voltar:hover, #botao_avancar:hover {
+    background-color: hsl(118, 100%, 50%);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Pokemon</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <div class="inicio">
+        <h1>
+            Bem vindo! <br> <br> Escolha seu Pokémon:
+        </h1>
+    </div>
+    <div>
+        <form class="formulario">
+            <h1>Nome ou ID do Pokémon:</h1>
+            <label for="nome_pokemon"><b>Nome ou ID</b></label>
+            <input id="pokemon_input" type="text" placeholder="Digite o nome ou o ID do Pokémon" required>
+            <!--
+                placeholder mostra um texto explicativo;
+                name é o identificador para enviar os dados;
+                required indica que o preenchimento é obrigatório;
+            -->
+            <button type="submit" id="botao_confirmacao">Procurar</button>
+        </form>
+    </div>
+
+    <div id="pokemon_info"></div> <!-- Aqui vão aparecer as informações do Pokémon -->
+
+    <div>
+    <button id="botao_voltar">Voltar</button>
+    <button id="botao_avancar">Avançar</button>
+    </div>
+
+</body>
+<script src="pokemon.js"></script>
+</html>
