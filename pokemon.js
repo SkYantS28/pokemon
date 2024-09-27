@@ -63,7 +63,7 @@ function changeBackgroundByType(types) {
         flying: '#4843a8',
         ground: 'rgb(72, 14, 14)',
         fairy: 'pink',
-        normal: 'rgb(151, 201, 255)',
+        normal: 'silver',
         fighting: '#eaef49',
         psychic: 'orange',
         rock: 'gray',
